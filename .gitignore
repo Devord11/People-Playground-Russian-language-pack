@@ -1,0 +1,5 @@
+dist/
+*.zip
+__pycache__/
+# шрифтовой бандл (проприетарный Arial Unicode) не храним в репозитории
+arialuni_sdf_*
