@@ -156,7 +156,6 @@ Windowed=В окне
 Determines the way the window is presented.=Определяет режим отображения окна.
 The volume of the entire application.=Громкость всего приложения.
 Physics iteration count=Количество итераций физики
-32 iterations=32 итерации
 Sound effects=Звуковые эффекты
 Vsync=Верт. синхронизация
 With Vsync turned on, the framerate will be capped to the refresh rate of your monitor. This minimises screen tearing.=При включенной вертикальной синхронизации частота кадров будет ограничена частотой обновления вашего монитора.\nЭто сводит к минимуму разрывы экрана.
@@ -168,10 +167,8 @@ User interface=Пользовательский интерфейс
 The volume of UI elements.=Громкость элементов интерфейса.
 Ambience Highpass=Фильтр фона (высокие частоты)
 Highpass cutoff. Ambient audio will not play any audio below this frequency. This is useful if you suffer from crackling audio issues. 90 Hz is the default and recommended value here.=Отсечка высоких частот.\nОкружающий звук не будет воспроизводить звук ниже этой частоты.\nЭто полезно, если у вас проблемы с потрескиванием звука.\n90 Гц здесь является значением по умолчанию и рекомендуемым значением.
-90 Hz=90 Гц
 Framerate limit=Ограничение частоты кадров
 Determine the upper bound of the framerate.\n<color\=#ff9><b>This will only take effect if Vsync is disabled.=Определите верхнюю границу частоты кадров.\n<color\=#ff9><b>Это вступит в силу только в том случае, если Vsync отключен.
-144 fps=144 кадра в секунду
 Ambient temperature transfer=Теплообмен с окружающей средой
 Brightness=Яркость
 Modify the final exposure value. Default is 100%=Измените окончательное значение экспозиции.\nПо умолчанию – 100 %.
@@ -209,7 +206,6 @@ The higher this value is the more fragile entities become.=Чем выше эт�
 Fragility multiplier=Множитель хрупкости
 When enabled, an alert will appear when mods cause increased loading times.=Если эта функция включена, появится предупреждение, когда моды увеличивают время загрузки.
 Alert when mods significantly affect loading times=Оповещение, когда моды существенно влияют на время загрузки
-15 degrees=15 градусов
 The angle increment used for snapping during rotation. This helps in aligning objects more precisely by snapping their rotation to the nearest multiple of this value. Default is 15 degrees=Приращение угла, используемое для привязки во время вращения.\nЭто помогает более точно выравнивать объекты, привязывая их вращение к ближайшему кратному этому значению.\nПо умолчанию 15 градусов.
 Angle snap size=Размер угловой привязки
 Gore shader=Шейдер расчленёнки
@@ -242,7 +238,6 @@ Debug messages will be logged as notifications in-game. Messages include warning
 Anti-aliasing (SMAA)=Сглаживание (SMAA)
 Toggle whether wires block the context menu for the underlying object.=Включите, блокируют ли провода контекстное меню базового объекта.
 Wires with context menu=Контекстное меню на проводах
-25 Hz=25 Гц
 How often should the thermal vision be updated?=Как часто следует обновлять тепловизор?
 Thermal vision update rate=Скорость обновления тепловизора
 Determines how fast zooming using the mouse wheel is. Default is 1x.=Определяет скорость масштабирования с помощью колеса мыши.\nПо умолчанию — 1x.
@@ -348,7 +343,6 @@ Colour code=Цветовой код
 Environment=Среда
 F♯\nG♭=F♯\nG♭
 Enter a name for the contraption=Введите название конструкции
-000 fps=000 кадров в секунду
 Clear living\n=Убрать живых\n
 Adrenaline\n=Адреналин\n
 B=B
@@ -917,15 +911,14 @@ Toggle indestructibility.=Переключить неразрушимость.
 <b>Activation Toggle</b>\r\nContinuously sends out activation signals if activated.=<b>Переключение активации</b>\r\nПостоянно отправляет сигналы активации, если активировано.
 <b>Activation Transformer</b>\r\nTransforms an electrical signal to an activation trigger signal. Basically: energy goes in, activation goes out.=<b>Трансформатор активации</b>\r\nПреобразует электрический сигнал в сигнал триггера активации.\nПо сути: энергия входит, активация выходит.
 Unfreeze=Разморозить
-PUSH=ТОЛКАТЬ
+PUSH=ВЫХОД
 Set to pull=Установить, чтобы тянуть
 Set to drain=Установить на слив
 Set to idle=Установить в режим ожидания
 Set tank to drain mode.=Установите бак в режим слива.
-PULL=ТЯНУТЬ
-IDLE=ОЖИДАНИЕ
+PULL=ВХОД
+IDLE=ПОКОЙ
 DRAIN=СЛИВ
-0 LITER=0 ЛИТР
 SCANNING...=СКАНИРОВАНИЕ...
 INITIALISING...=ИНИЦИАЛИЗАЦИЯ...
 <align\="center"><#fff>LIQUID CONTENTS\n</align></color>\n\n<#222>(EMPTY)=<align\="center"><#fff>СОДЕРЖИМОЕ\n</align></color>\n\n<#222>(ПУСТО)
@@ -935,7 +928,6 @@ Flush=Промыть
 ABRUPT SHUTDOWN RECOVERY=ВОССТАНОВЛЕНИЕ ПОСЛЕ АВАРИЙНОГО ОТКЛЮЧЕНИЯ
 <i>(empty)</i>=<i>(пустой)</i>
 <b>Cardiopulmonary Bypass Machine</b>\r\nThis machine, when connected to the upper torso, will take over the function of the heart by supplying the organism with blood pressure.=<b>Аппарат искусственного кровообращения</b>\r\nЭтот аппарат, подключенный к верхней части туловища, возьмет на себя функцию сердца, снабжая организм кровяным давлением.
-0.2 LITER=0,2 ЛИТРА
 <b>ATOM BOMB</b> removed=Удалено: <b>АТОМНАЯ БОМБА</b>
 <b>Adhesive Coupler</b>\r\nAttaches to all objects around it in a small radius when activated. Releases objects when activated again.=<b>Клейкая муфта</b>\r\nПри активации прикрепляется ко всем объектам вокруг себя в небольшом радиусе.\nОсвобождает объекты при повторной активации.
 <align\="center"><#fff>LIQUID CONTENTS\n</align></color>\n\n100% Tritium\r\n=<align\="center"><#fff>СОДЕРЖИМОЕ\n</align></color>\n\n100% тритий\r\n
@@ -943,12 +935,9 @@ ABRUPT SHUTDOWN RECOVERY=ВОССТАНОВЛЕНИЕ ПОСЛЕ АВАРИЙН�
 °C=°C
 <b>Jet Engine</b>\r\nExtremely powerful thruster. It takes a while to start up and shut off, but it will eventually propel itself with immense force. The engine is relatively fragile and will explode when destroyed.=<b>Реактивный двигатель</b>\r\nЧрезвычайно мощный двигатель.\nТребуется некоторое время, чтобы запуститься и выключиться, но в конечном итоге он начнет двигаться с огромной силой.\nДвигатель относительно хрупок и взорвется при разрушении.
 Copies the selected objects.=Копирует выбранные объекты.
-0.8 LITER=0,8 ЛИТРА
-0.7 LITER=0,7 ЛИТРА
 Drag selected=Перетащить выбранное
 <b>GORSE BLOOD FLASK</b> removed=Удалено: <b>КОЛБА С КРОВЬЮ ГОРСА</b>
 <align\="center"><#fff>LIQUID CONTENTS\n</align></color>\n\n100% Gorse blood\r\n=<align\="center"><#fff>СОДЕРЖИМОЕ\n</align></color>\n\n100% кровь горса\r\n
-0.9 LITER=0,9 ЛИТРА
 <align\="center"><#fff>LIQUID CONTENTS\n</align></color>\n\n100% Oil\r\n=<align\="center"><#fff>СОДЕРЖИМОЕ\n</align></color>\n\n100% масло\r\n
 <align\="center"><#fff>LIQUID CONTENTS\n</align></color>\n\n100% Nitroglycerine\r\n=<align\="center"><#fff>СОДЕРЖИМОЕ\n</align></color>\n\n100% нитроглицерин\r\n
 <align\="center"><#fff>LIQUID CONTENTS\n</align></color>\n\n100% Human blood\r\n=<align\="center"><#fff>СОДЕРЖИМОЕ\n</align></color>\n\n100% человеческая кровь\r\n
@@ -982,10 +971,6 @@ Cleared debris=Мусор убран
 <b>Heart Monitor</b>\r\nMonitors heart rate of living beings. Connect the monitor to a limb using a blood vessel wire.=<b>Кардиомонитор</b>\r\nМониторит частоту сердечных сокращений живых существ.\nПодключите монитор к конечности с помощью провода кровеносного сосуда.
 <b>Heating Element</b>\r\nHeats up to a configurable target temperature from 0 to 1000 degrees Celcius.=<b>Нагревательный элемент</b>\r\nНагревается до настраиваемой целевой температуры от 0 до 1000 градусов Цельсия.
 Connect wire=Подключить провод
-75 BPM=75 ударов в минуту
-76 BPM=76 ударов в минуту
-74 BPM=74 удара в минуту
-73 BPM=73 удара в минуту
 <b>HEART MONITOR</b> removed=Удалено: <b>КАРДИОМОНИТОР</b>
 <b>HUMAN</b> removed=Удалено: <b>ЧЕЛОВЕК</b>
 <b>RG Signal Converter</b>\r\nActivation signal channel converter. Converts <color\=#FF4444>red<color\=#FFFFFF> to <color\=#44FF44>green<color\=#FFFFFF> and vice versa.=<b>Конвертер сигналов RG</b>\r\nПреобразователь каналов сигнала активации. Превращает <color\=#FF4444>красный<color\=#FFFFFF> в <color\=#44FF44>зелёный<color\=#FFFFFF> и наоборот.
@@ -1354,6 +1339,38 @@ Changed to Tools tab=Вкладка «Инструменты»
 <b>DECIMATOR</b> removed=Удалено: <b>ДЕЦИМАТОР</b>
 Repair broken machinery=Починить сломанные механизмы
 Triggers the selected objects.=Активирует выбранные объекты.
+<align\="center"><#fff>LIQUID CONTENTS\n</align></color>\n\n34% Life serum\r\n33% Coagulation serum\r\n33% Bone eating poison\r\n=<align\="center"><#fff>СОДЕРЖИМОЕ\n</align></color>\n\n34% сыворотка жизни\r\n33% коагуляционная сыворотка\r\n33% костоедный яд\r\n
+<b>SMALL BUTTON</b> removed=Удалено: <b>МАЛЕНЬКАЯ КНОПКА</b>
+<b>DETECTOR</b> removed=Удалено: <b>ДЕТЕКТОР</b>
+Set range=Задать дальность
+Hide beam=Скрыть луч
+<b>FLASHLIGHT</b> removed=Удалено: <b>ФОНАРИК</b>
+Toggle trigger behaviour.=Переключить поведение триггера.
+Set detector range in meters=Задать дальность детектора в метрах
+Target distance in meters from 0.2 m to 40 m=Расстояние до цели в метрах: от 0,2 до 40 м
+Set detector range.=Задать дальность детектора.
+Set laser colour=Задать цвет лазера
+Enter contraption name=Введите название конструкции
+Change the colour of this object.=Изменить цвет этого объекта.
+Pull selected=Притянуть выбранное
+<b>LIQUID DUPLICATOR</b> removed=Удалено: <b>ДУБЛИКАТОР ЖИДКОСТИ</b>
+<b>PISTOL</b> removed=Удалено: <b>ПИСТОЛЕТ</b>
+<color\=green>Active</color>=<color\=green>Активно</color>
+Clear animation override=Сбросить принудительную анимацию
+Inactive=Неактивно
+<color\=red>NO HEART DETECTED</color>=<color\=red>СЕРДЦЕ НЕ ОБНАРУЖЕНО</color>
+STAND BY=ГОТОВ
+<b>DEFIBRILLATOR</b> removed=Удалено: <b>ДЕФИБРИЛЛЯТОР</b>
+OK=ОК
+<b>Steam is not initialised</b>\n\nThe game failed to detect Steam. Some features may not work correctly.\n\nTry restarting the game or the Steam client.=<b>Steam не инициализирован</b>\n\nИгра не обнаружила Steam.\nНекоторые функции могут работать некорректно.\n\n\nПопробуйте перезапустить игру или клиент Steam.
+<b>TELEVISION</b> removed=Удалено: <b>ТЕЛЕВИЗОР</b>
+Now playing <color\=#ff54f9>Fantasie Impromptu</color>=Сейчас играет <color\=#ff54f9>Fantasie Impromptu</color>
+Previous track=Предыдущий трек
+Next track=Следующий трек
+Next track.=Следующий трек.
+Previous track.=Предыдущий трек.
+Now playing <color\=#ff54f9>Clair de Lune</color>=Сейчас играет <color\=#ff54f9>Clair de Lune</color>
+<b>ACCUMULATOR</b> removed=Удалено: <b>АККУМУЛЯТОР</b>
 r:"^([0-9]+) fps$"=$1 к/с
 r:"^([0-9]+) Hz$"=$1 Гц
 r:"^([0-9]+) iterations$"=$1 ит.
