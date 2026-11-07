@@ -1,4 +1,4 @@
-﻿G=G
+G=G
 R=R
 Enabling this will cause the generation of procedural flesh and bone fragments on full limb crush. This may cause performance issues when lots of limbs are destroyed.=Включение этого параметра приведет к генерации процедурных фрагментов плоти и костей при полном раздавливании конечностей.\nЭто может вызвать проблемы с производительностью при разрушении большого количества конечностей.
 Procedural fragments=Процедурные осколки
@@ -12,7 +12,6 @@ Copy\n=Копировать\n
 resume=продолжить
 Visual center=Визуальный центр
 Center of mass=Центр масс
-0 °C=0 °C
 version <b>1.28.37 (64 bit for Windows)</b>\nusing Unity <b>2020.3.1f1</b>=версия <b>1.28.37 (64-бит, Windows)</b>\nна Unity <b>2020.3.1f1</b>
 Delete object=Удалить объект
 Flip object=Перевернуть объект
@@ -345,7 +344,6 @@ Enter a name for the contraption=Введите название констру�
 Clear living\n=Убрать живых\n
 Adrenaline\n=Адреналин\n
 B=B
-integrity\n25% \n\nblood amount\n50%\n\nblood pressure\n65%\n\ninternal temp.\n37 °C=целостность 25%\n\n\nколичество крови 50%\n\n\nкровяное давление 65%\n\n\nвнутренняя темп.\n37 °С
 Clear debris=Очистить мусор
 Powers=Способности
 G♯\nA♭=G♯\nA♭
@@ -1362,12 +1360,10 @@ STAND BY=ГОТОВ
 OK=ОК
 <b>Steam is not initialised</b>\n\nThe game failed to detect Steam. Some features may not work correctly.\n\nTry restarting the game or the Steam client.=<b>Steam не инициализирован</b>\n\nИгра не обнаружила Steam.\nНекоторые функции могут работать некорректно.\n\n\nПопробуйте перезапустить игру или клиент Steam.
 <b>TELEVISION</b> removed=Удалено: <b>ТЕЛЕВИЗОР</b>
-Now playing <color\=#ff54f9>Fantasie Impromptu</color>=Сейчас играет <color\=#ff54f9>Fantasie Impromptu</color>
 Previous track=Предыдущий трек
 Next track=Следующий трек
 Next track.=Следующий трек.
 Previous track.=Предыдущий трек.
-Now playing <color\=#ff54f9>Clair de Lune</color>=Сейчас играет <color\=#ff54f9>Clair de Lune</color>
 <b>ACCUMULATOR</b> removed=Удалено: <b>АККУМУЛЯТОР</b>
 <b>CROSSBOW BOLT</b> removed=Удалено: <b>АРБАЛЕТНЫЙ БОЛТ</b>
 <b>CROSSBOW</b> removed=Удалено: <b>АРБАЛЕТ</b>
@@ -1388,6 +1384,7 @@ Now playing <color\=#ff54f9>Clair de Lune</color>=Сейчас играет <col
 Open source libraries=Библиотеки с открытым исходным кодом
 Export game debug info=Экспортировать отладочную информацию игры
 <color\=#bbb>Retrieving subscriptions</color>=<color\=#bbb>Получение подписок</color>
+<b>people playground</b> (2019) \n<size\=70%>by mestiez <color\=#fff7>(zooi)</color>, Studio Minus</size>=<b>people playground</b> (2019) \n<size\=70%>by mestiez <color\=#fff7>(zooi)</color>, Studio Minus</size>
 <b>Contributors</b>\nvarious features and improvements\\t<i>Aspa102</i>\nbugfixes   <i>mishanya</i>\n=<b>Авторы вклада</b>\nразличные функции и улучшения\\t<i>Aspa102</i>\nисправления ошибок   <i>mishanya</i>\n
 <b>Steam Workshop</b>=<b>Мастерская Steam</b>
 9MM PISTOL=9-ММ ПИСТОЛЕТ
@@ -1436,6 +1433,10 @@ Push selected=Выбрано: Толчок
 Lift selected=Выбрано: Подъём
 Lightning selected=Выбрано: Молния
 Pyrokinesis selected=Выбрано: Пирокинез
+Resets and restarts the map.=Сбрасывает и перезапускает карту.
+Pastes the copied objects.=Вставляет скопированные объекты.
+Extinguish=Потушить
+Resets the animation to be controlled by the algorithm again.=Возвращает управление анимацией алгоритму.
 Acid=Кислота
 Bone eating poison=Костоедный яд
 Coagulation serum=Коагуляционная сыворотка
@@ -1461,15 +1462,24 @@ Ultra strength serum=Сыворотка сверхсилы
 Water breathing serum=Сыворотка водного дыхания
 sr:"^<align\=.center.><#fff>LIQUID CONTENTS\n</align></color>\n\n(?<a1_i>[0-9]+% )(?<n1>[^\r\n]+)(?<e1_i>\r\n)(?:(?<a2_i>[0-9]+% )(?<n2>[^\r\n]+)(?<e2_i>\r\n))?(?:(?<a3_i>[0-9]+% )(?<n3>[^\r\n]+)(?<e3_i>\r\n))?(?:(?<a4_i>[0-9]+% )(?<n4>[^\r\n]+)(?<e4_i>\r\n))?(?:(?<a5_i>[0-9]+% )(?<n5>[^\r\n]+)(?<e5_i>\r\n))?(?:(?<a6_i>[0-9]+% )(?<n6>[^\r\n]+)(?<e6_i>\r\n))?(?:(?<a7_i>[0-9]+% )(?<n7>[^\r\n]+)(?<e7_i>\r\n))?(?:(?<a8_i>[0-9]+% )(?<n8>[^\r\n]+)(?<e8_i>\r\n))?(?:(?<a9_i>[0-9]+% )(?<n9>[^\r\n]+)(?<e9_i>\r\n))?(?:(?<a10_i>[0-9]+% )(?<n10>[^\r\n]+)(?<e10_i>\r\n))?(?:(?<a11_i>[0-9]+% )(?<n11>[^\r\n]+)(?<e11_i>\r\n))?(?:(?<a12_i>[0-9]+% )(?<n12>[^\r\n]+)(?<e12_i>\r\n))?(?:(?<a13_i>[0-9]+% )(?<n13>[^\r\n]+)(?<e13_i>\r\n))?(?:(?<a14_i>[0-9]+% )(?<n14>[^\r\n]+)(?<e14_i>\r\n))?(?:(?<a15_i>[0-9]+% )(?<n15>[^\r\n]+)(?<e15_i>\r\n))?(?:(?<a16_i>[0-9]+% )(?<n16>[^\r\n]+)(?<e16_i>\r\n))?(?:(?<a17_i>[0-9]+% )(?<n17>[^\r\n]+)(?<e17_i>\r\n))?(?:(?<a18_i>[0-9]+% )(?<n18>[^\r\n]+)(?<e18_i>\r\n))?(?:(?<a19_i>[0-9]+% )(?<n19>[^\r\n]+)(?<e19_i>\r\n))?(?:(?<a20_i>[0-9]+% )(?<n20>[^\r\n]+)(?<e20_i>\r\n))?(?:(?<a21_i>[0-9]+% )(?<n21>[^\r\n]+)(?<e21_i>\r\n))?(?:(?<a22_i>[0-9]+% )(?<n22>[^\r\n]+)(?<e22_i>\r\n))?(?:(?<a23_i>[0-9]+% )(?<n23>[^\r\n]+)(?<e23_i>\r\n))?(?:(?<a24_i>[0-9]+% )(?<n24>[^\r\n]+)(?<e24_i>\r\n))?(?:(?<a25_i>[0-9]+% )(?<n25>[^\r\n]+)(?<e25_i>\r\n))?(?:(?<a26_i>[0-9]+% )(?<n26>[^\r\n]+)(?<e26_i>\r\n))?(?:(?<a27_i>[0-9]+% )(?<n27>[^\r\n]+)(?<e27_i>\r\n))?(?:(?<a28_i>[0-9]+% )(?<n28>[^\r\n]+)(?<e28_i>\r\n))?(?:(?<a29_i>[0-9]+% )(?<n29>[^\r\n]+)(?<e29_i>\r\n))?(?:(?<a30_i>[0-9]+% )(?<n30>[^\r\n]+)(?<e30_i>\r\n))?$"=<align\=center><#fff>СОДЕРЖИМОЕ\n</align></color>\n\n${a1_i}${n1}${e1_i}${a2_i}${n2}${e2_i}${a3_i}${n3}${e3_i}${a4_i}${n4}${e4_i}${a5_i}${n5}${e5_i}${a6_i}${n6}${e6_i}${a7_i}${n7}${e7_i}${a8_i}${n8}${e8_i}${a9_i}${n9}${e9_i}${a10_i}${n10}${e10_i}${a11_i}${n11}${e11_i}${a12_i}${n12}${e12_i}${a13_i}${n13}${e13_i}${a14_i}${n14}${e14_i}${a15_i}${n15}${e15_i}${a16_i}${n16}${e16_i}${a17_i}${n17}${e17_i}${a18_i}${n18}${e18_i}${a19_i}${n19}${e19_i}${a20_i}${n20}${e20_i}${a21_i}${n21}${e21_i}${a22_i}${n22}${e22_i}${a23_i}${n23}${e23_i}${a24_i}${n24}${e24_i}${a25_i}${n25}${e25_i}${a26_i}${n26}${e26_i}${a27_i}${n27}${e27_i}${a28_i}${n28}${e28_i}${a29_i}${n29}${e29_i}${a30_i}${n30}${e30_i}
 sr:"^<b>(?<n>[^<]+)</b> removed$"=Удалено: <b>${n}</b>
-sr:"^<align\=center>CURRENT REACTOR DATA</align>\r\n\r\nTEMPERATURE: (?<t_i>[0-9.,\-]+)°C\nCOOLING PUMPS: (?<c_i>[0-9.,]+)%\nCONTROL ROD DEPTH: (?<d_i>[0-9.,]+)%\n\r\n(?<s>REACTOR IS [A-Z ]+)\nPOWER OUTPUT: (?<p_i>[0-9.,\-]+) E\n- - - -\r\n(?:(?<wo_i><color\=[a-z#0-9]+>)(?<w>[A-Z ]+)(?<wc_i></color>\n))?$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: ${t_i}°C\nНАСОСЫ ОХЛАЖДЕНИЯ: ${c_i}%\nГЛУБИНА СТЕРЖНЕЙ: ${d_i}%\n\r\n${s}\nМОЩНОСТЬ: ${p_i} E\n- - - -\r\n${wo_i}${w}${wc_i}
-REACTOR IS CRITICAL=РЕАКТОР КРИТИЧЕСКИЙ
-REACTOR IS SUBCRITICAL=РЕАКТОР ПОДКРИТИЧЕСКИЙ
-REACTOR IS SUPERCRITICAL=РЕАКТОР НАДКРИТИЧЕСКИЙ
-HIGH TEMPERATURE=ВЫСОКАЯ ТЕМПЕРАТУРА
-LOW TEMPERATURE=НИЗКАЯ ТЕМПЕРАТУРА
-CATASTROPHIC TEMPERATURE=КАТАСТРОФИЧЕСКАЯ ТЕМПЕРАТУРА
-CRITICAL TEMPERATURE=КРИТИЧЕСКАЯ ТЕМПЕРАТУРА
-EXTREME TEMPERATURE=ЭКСТРЕМАЛЬНАЯ ТЕМПЕРАТУРА
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS CRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР КРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS CRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)HIGH TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР КРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5ВЫСОКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS CRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)LOW TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР КРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5НИЗКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS CRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)CATASTROPHIC TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР КРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5КАТАСТРОФИЧЕСКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS CRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)CRITICAL TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР КРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5КРИТИЧЕСКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS CRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)EXTREME TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР КРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5ЭКСТРЕМАЛЬНАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUBCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР ПОДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUBCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)HIGH TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР ПОДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5ВЫСОКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUBCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)LOW TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР ПОДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5НИЗКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUBCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)CATASTROPHIC TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР ПОДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5КАТАСТРОФИЧЕСКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUBCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)CRITICAL TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР ПОДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5КРИТИЧЕСКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUBCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)EXTREME TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР ПОДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5ЭКСТРЕМАЛЬНАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUPERCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР НАДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUPERCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)HIGH TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР НАДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5ВЫСОКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUPERCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)LOW TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР НАДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5НИЗКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUPERCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)CATASTROPHIC TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР НАДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5КАТАСТРОФИЧЕСКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUPERCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)CRITICAL TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР НАДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5КРИТИЧЕСКАЯ ТЕМПЕРАТУРА$6
+r:"^<align\=.?center.?>CURRENT REACTOR DATA</align>\s*TEMPERATURE:\s*([0-9.,\-]+)\s*.C\s*COOLING PUMPS:\s*([0-9.,]+)\s*%\s*CONTROL ROD DEPTH:\s*([0-9.,]+)\s*%\s*REACTOR IS SUPERCRITICAL\s*POWER OUTPUT:\s*([0-9.,\-]+)\s*E\s*- - - -\s*(<color\=[a-z#0-9]+>)EXTREME TEMPERATURE(</color>\s*)$"=<align\=center>ТЕКУЩИЕ ДАННЫЕ РЕАКТОРА</align>\r\n\r\nТЕМПЕРАТУРА: $1°C\nНАСОСЫ ОХЛАЖДЕНИЯ: $2%\nГЛУБИНА СТЕРЖНЕЙ: $3%\n\r\nРЕАКТОР НАДКРИТИЧЕСКИЙ\nМОЩНОСТЬ: $4 E\n- - - -\r\n$5ЭКСТРЕМАЛЬНАЯ ТЕМПЕРАТУРА$6
 sr:"^(?<n>[A-Z][A-Za-z ]+) selected$"=Выбрано: ${n}
 Rigid cable=Жёсткий кабель
 Wire=Провод
@@ -1504,6 +1514,60 @@ Pyrokinesis=Пирокинез
 r:"^(<mspace\=0.057>[0-9.\-]+ 'C)$"=$1
 r:"^<b>CAPACITY</b>\n<size\=14\n0%>([0-9.,]+) ?kg$"=<b>ЕМКОСТЬ</b>\n<size\=14\n0%>$1 кг
 r:"^([0-9]+)KG WEIGHT$"=ГИРЯ $1 КГ
+r:"^integrity\n([0-9.,]+)% ?\n\nblood amount\n([0-9.,]+)% ?\n\nblood pressure\n([0-9.,]+)% ?\n\ninternal temp\.\n(-?[0-9.,]+) ?°C$"=целостность\n$1%\n\nобъём крови\n$2%\n\nдавление\n$3%\n\nвнутр. темп.\n$4 °C
+r:"^Now playing (<color\=#ff54f9>.+</color>)$"=Сейчас играет $1
+r:"^Set to ([A-G]♯?)(\n?)$"=Нота $1$2
+Mend or break bone.=Срастить или сломать кость.
+Mend bone=Срастить кость
+Inspect.=Осмотреть.
+Forces the resting animation override.=Принудительно включает анимацию покоя.
+Forces the sitting animation override.=Принудительно включает анимацию сидения.
+Forces the protection animation override.=Принудительно включает анимацию защиты.
+Forces the walking animation override.=Принудительно включает анимацию ходьбы.
+Forces the stumbling animation override.=Принудительно включает анимацию спотыкания.
+Switches to the next texture.=Переключает на следующую текстуру.
+Switches to the previous texture.=Переключает на предыдущую текстуру.
+Drain the container of its contents.=Опорожнить контейнер.
+Set tank to pull mode.=Перевести бак в режим входа.
+Set tank to push mode.=Перевести бак в режим выхода.
+Set tank to idle mode.=Перевести бак в режим покоя.
+Set timed gate duration=Задать длительность таймера вентиля
+Set timed gate duration in seconds.=Задать длительность таймера вентиля в секундах.
+Set to repulse=Отталкивание
+Reverses the polarity of the magnet.=Меняет полярность магнита.
+Set to attract=Притяжение
+Enable machine heat damage.=Включить тепловой урон для механизмов.
+Show or hide the detector beam.=Показать или скрыть луч детектора.
+Show beam=Показать луч
+Toggle syringe infinite.=Бесконечный шприц (вкл./выкл.).
+Enable infinite source=Включить бесконечный источник
+Set syringe to idle mode.=Перевести шприц в режим покоя.
+Set syringe to pull mode.=Перевести шприц в режим втягивания.
+SENTRYTURRETDEBRIS(CLONE)=SENTRYTURRETDEBRIS(CLONE)
+BOTTLE SHARD=ОСКОЛОК БУТЫЛКИ
+Set threshold=Задать порог
+Set gate threshold.=Задать порог вентиля.
+Set maximum power level=Задать максимальный уровень мощности
+Set maximum power level.=Задать максимальный уровень мощности.
+Double trigger gate=Вентиль двойного триггера
+Set the lower translation limit for the winch.=Задать нижний предел перемещения лебедки.
+Set the upper translation limit for the winch.=Задать верхний предел перемещения лебедки.
+Set winch lower limit=Задать нижний предел лебедки
+Set winch upper limit=Задать верхний предел лебедки
+Translation in meters=Перемещение в метрах
+Clear counter value.=Сбросить значение счётчика.
+Convert to a stabiliser=Превратить в стабилизатор
+Convert to a stabiliser.=Превратить в стабилизатор.
+Convert to a regular wing=Превратить в обычное крыло
+Convert to a regular wing.=Превратить в обычное крыло.
+Set tint for selected objects=Задать оттенок выбранных объектов
+Set bell note=Задать ноту колокола
+Set bell note.=Задать ноту колокола.
+Increment bell note.=Повысить ноту колокола.
+Decrement bell note.=Понизить ноту колокола.
+Set stick distance=Задать дальность прилипания
+Set the distance the coupler can stick to objects.=Задать расстояние, на котором муфта может прилипать к объектам.
+Distance=Расстояние
 PROCEDURAL FRAGMENTS=ПРОЦЕДУРНЫЕ ОСКОЛКИ
 DISABLED=ОТКЛЮЧЕНО
 GORELESS=БЕЗ КРОВИ
@@ -2224,6 +2288,14 @@ PUSH SELECTED=ВЫБРАНО: ТОЛЧОК
 LIFT SELECTED=ВЫБРАНО: ПОДЪЁМ
 LIGHTNING SELECTED=ВЫБРАНО: МОЛНИЯ
 PYROKINESIS SELECTED=ВЫБРАНО: ПИРОКИНЕЗ
+RESETS AND RESTARTS THE MAP.=СБРАСЫВАЕТ И ПЕРЕЗАПУСКАЕТ КАРТУ.
+PASTES THE COPIED OBJECTS.=ВСТАВЛЯЕТ СКОПИРОВАННЫЕ ОБЪЕКТЫ.
+EXTINGUISH=ПОТУШИТЬ
+Threshold as percentage=Порог в процентах
+Set the gate threshold=Установить порог вентиля
+Maximum power=Максимальная мощность
+Set the gate maximum power=Установить максимальную мощность вентиля
+Single trigger gate=Вентиль с одиночным триггером
 r:"^([0-9]+) fps$"=$1 к/с
 r:"^([0-9]+) Hz$"=$1 Гц
 r:"^([0-9]+) iterations$"=$1 ит.
@@ -2231,5 +2303,6 @@ r:"^([0-9]+) degrees$"=$1°
 r:"^([0-9.,]+) LITERS?$"=$1 Л
 r:"^([0-9]+) BPM$"=$1 уд/мин
 r:"^([0-9.,]+) ?m$"=$1 м
+r:"^(-?[0-9.,]+ ?°C)$"=$1
 r:"^Copied ([0-9]+) objects$"=Скопировано объектов: $1
 r:"^Pasted ([0-9]+) objects$"=Вставлено объектов: $1
