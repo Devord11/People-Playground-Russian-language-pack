@@ -1,7 +1,7 @@
 # People Playground — русификатор
 
 Неофициальный русский перевод интерфейса **People Playground** (Steam, Windows).
-Проверялся на версии **1.28.37**.
+Проверялся на версии **1.28.53**.
 
 > Проект не связан со Studio Minus и не одобрен ими.
 > Работает через [BepInEx](https://github.com/BepInEx/BepInEx) и
